@@ -28,8 +28,7 @@ The data covers the information of sold-properties from 2000 to July 2021. The d
 | 2004113258    | killara-nsw-2071 | 22 Oct 2003 | private treaty     |  House  | 1.0 | 1445000 | 4.0 | 2.0  | 2.0  | 562.0 | -37.84444       | 145.120941         | 153 Station Street  | 1 |
 | 2004234169    | mascot-nsw-2020 | 17 Mar 2011 | private treaty     |  ApartmentUnitFlat  | 1.0 | 445000 | 1.0 | 1.0        | 1.0  | | -33.9207039       | 151.189316        | 42/635 Gardeners Road  | 1 |
 
-* **note**: the sample data can be found in the properties_clean.csv in the [domain_scanner.zip](https://github.com/GuoshuaiWang/housing_project/blob/master/domain_screener.zip)
-
+* **note**: the sample data can be found in the **properties_clean.csv** 
 ## Code Instruction
 ### Step 1: download file
 * bigtable.sql
@@ -53,7 +52,7 @@ This step is to fine-tune the dataset into a samller dataset for analysis purpos
 Since the distance of a property to CBD is a very important factor that investors consider, in this step, we use the dataset generated in the previous step and run the code of **distance_to_CBD.ipynb** to add the distance of each suburb to the CBD to its corresponding state. 
 
 ### Step 5: Generate csv files based on property type
-In the final step, we can run the table_by_property_type.ipynb to generate several csv files based on different property type and number of bedrooms. Specifically, there are 6 csv files will be generated, and they are
+In the final step, we can run the **table_by_property_type.ipynb** to generate several csv files based on different property type and number of bedrooms. Specifically, there are 6 csv files will be generated, and they are
 * 1 bed apartment
 * 2 beds apartment
 * 3 beds apartment
