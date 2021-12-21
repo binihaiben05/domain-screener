@@ -64,7 +64,7 @@ In the final step, we can run the **table_by_property_type.ipynb** to generate s
 The purpose of this step is to generate csv files for people who have minimal knowledge about EXCEL to look up properties based on their individual needs.
 
 ## Analytical Report
-The final analytical report can be found domian_screener_report.pdf
+The final analytical report can be found **domian_screener_report.pdf**
 This report contains all the detailed processes about this project, which includes 
 * problem statement
 * data source
