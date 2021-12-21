@@ -2,7 +2,7 @@
 ## Project Overview
 Australia has been a popular place for property investment in the past decades. With more and more and more people have fully vaccinated for the COVID-19 and the rising expectation of re-opening the border, the real estate market in Australia starts regaining people’s attention. More and more investors are willing to purchase the property in Australia. In this project, this project aims to analyze the historical data of the Australian properties in the past 2 decades. At the end of this project, based on the evidence from the data analysis, we will develop the solution for investors with certain amount of budget to find suburbs that are most suitable for investment. 
 
-* Code used for doing this project can be found [here](https://github.com/GuoshuaiWang/housing_project/tree/master)
+
 
 ### Key Tools Used in This Project
 * Python
@@ -31,8 +31,7 @@ The data covers the information of sold-properties from 2000 to July 2021. The d
 * **note**: the sample data can be found in the properties_clean.csv in the [domain_scanner.zip](https://github.com/GuoshuaiWang/housing_project/blob/master/domain_screener.zip)
 
 ## Code Instruction
-### Step 1: unzip the zip file
-After unzipping the [domain_scanner.zip](https://github.com/GuoshuaiWang/housing_project/blob/master/domain_screener.zip) file, you will see 6 files inside
+### Step 1: download file
 * bigtable.sql
 * distance_to_CBD.ipynb
 * properties_cleaned.csv
@@ -66,7 +65,7 @@ In the final step, we can run the table_by_property_type.ipynb to generate sever
 The purpose of this step is to generate csv files for people who have minimal knowledge about EXCEL to look up properties based on their individual needs.
 
 ## Analytical Report
-The final analytical report can be found [here](https://raw.githubusercontent.com/GuoshuaiWang/housing_project/master/2021-11-18-Project.pdf)
+The final analytical report can be found domian_screener_report.pdf
 This report contains all the detailed processes about this project, which includes 
 * problem statement
 * data source
